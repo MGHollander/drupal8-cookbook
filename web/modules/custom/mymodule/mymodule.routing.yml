@@ -1,10 +1,5 @@
-mymodule.mypage:
-  path: '/mypage'
-  defaults:
-    _controller: '\Drupal\mymodule\Controller\MyPageController::customPage'
-    _title: 'My custom page'
-  requirements:
-    _permission: 'access content'
+route_callbacks:
+  - '\Drupal\mymodule\Routing\CustomRoutes::routes'
 
 mymodule.cats:
   path: '/cat/{name}'
