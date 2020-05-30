@@ -5,3 +5,10 @@ mymodule.mypage:
     _title: 'My custom page'
   requirements:
     _permission: 'access content'
+
+mymodule.cats:
+  path: '/cat/{name}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyPageController::cats'
+  requirements:
+    _permission: 'access content'

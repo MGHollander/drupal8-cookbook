@@ -17,4 +17,11 @@ class MyPageController extends ControllerBase {
     ];
   }
 
+  public function cats($name) {
+    return [
+      '#markup' => t('My cats name is: @name', [
+        '@name' => $name,
+      ]),
+    ];
+  }
 }
