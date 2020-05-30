@@ -1,6 +1,6 @@
 uuid: 01e6cdb9-ac1a-4cc6-aeaa-667c737290be
-name: 'Drush Site-Install'
-mail: admin@example.com
+name: 'Drupal 8 Cookbook'
+mail: root@example.com
 slogan: ''
 page:
   403: ''
