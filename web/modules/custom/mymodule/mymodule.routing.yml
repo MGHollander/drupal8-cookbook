@@ -6,4 +6,4 @@ mymodule.cats:
   defaults:
     _controller: '\Drupal\mymodule\Controller\MyPageController::cats'
   requirements:
-    _permission: 'access content'
+    _permission: 'view mymodule pages'

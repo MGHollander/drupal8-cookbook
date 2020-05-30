@@ -18,7 +18,7 @@ class CustomRoutes {
       ],
       // Route requirements
       [
-        '_permission' => 'access content',
+        '_permission' => 'view mymodule pages',
       ]
     );
     return $routes;
